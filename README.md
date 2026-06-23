@@ -23,11 +23,15 @@ This repository is provided for research review, reproducibility verification, a
 fishery-escrow-smart-contract/
 
 ├── contracts/
+
 │   └── CircularEscrowFishery.sol       # Four-component governance contract
+
 ├── data/
 │   └── execution_results_1985tx.csv    # Full execution dataset (1,985 transactions)
+
 ├── docs/
 │   └── deployment_info.md              # Sepolia contract address & verification links
+
 └── README.md
 
 ---
