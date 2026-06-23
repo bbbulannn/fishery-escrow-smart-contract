@@ -1,0 +1,21 @@
+# Deployment Information
+
+## Network
+Ethereum Sepolia Public Testnet
+
+## Contract Address
+- CircularEscrowFishery: 0xbc91630ad33a8b671886bb4964d113172606608a2114be676fd605a1b62096c0
+
+## Etherscan Verification
+https://sepolia.etherscan.io/address/0x65fbf31cb44b9a6c8710449f667ae56e601badd7
+
+## Deployment Date
+17 May 2026
+
+## Function Mapping
+| Paper Component | Solidity Function |
+|-----------------|-------------------|
+| LotRegistry | recordActivity() |
+| Custody | updateLocation() |
+| QualitySLA | createOrder() |
+| EscrowSettlement | evaluateAndSettle() |
