@@ -22,8 +22,6 @@ This repository is provided for research review, reproducibility verification, a
 
 fishery-escrow-smart-contract/
 
-fishery-escrow-smart-contract/
-
 ├── contracts/
 
 │   └── CircularEscrowFishery.sol       # Four-component governance contract
@@ -60,9 +58,13 @@ It implements four interdependent governance components as described in Section 
 The three-path governance decision structure:
 
 QI ≥ 85  →  PASS     →  Full escrow release to seller
+
 70 ≤ QI < 85  →  PARTIAL  →  Proportional payment (penalty deducted from QI score)
+
 QI < 70  →  FAIL     →  Primary payment withheld + salvage release + circular routing
+
 ├── Fishmeal processor (histamine < 200 ppm)
+
 └── Biogas facility (alternative valorization path)
 
 ### Hard-Stop Boundary Condition
